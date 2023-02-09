@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    max-width: 600px;
+    margin: 5rem 6rem ;
+    padding: 10px;
+    background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1729&q=80);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+
+}
+
+
+.input-section {
+    border-radius: 15px 15px 0 0;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#input {
+    align-self: center;
+    background-color: transparent;
+    border: 1px solid #B295FF;
+    color: white;
+    border-radius: 5px;
+    font-size:60px;
+    max-width: 100px; 
+    margin-bottom: 1rem;
+}
+
+#convert-btn {
+    max-width: fit-content;
+    align-self: center;
+    font-size: 15px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.conversion {
+    text-align: center;
+}
+
+.conversion article {
+    border-radius: 7.5px;
+    background-color: #273549;
+    margin: 1rem;
+    padding: 1rem;
+}
